@@ -1,0 +1,44 @@
+.presentation {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 5rem 5rem;
+}
+
+.presentation--left {
+  padding-block: 5rem 5rem;
+}
+
+.presentation--left--greet {
+  border: 1px solid black;
+  width: fit-content;
+  padding-inline: 1rem 1rem;
+  padding-block: 0.3rem 0.5rem;
+  border-radius: 1.5rem;
+  font-size: 16px;
+}
+
+.presentation--intro {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  padding-inline: 0.1rem 0.1rem;
+}
+
+.presentation--intro--title {
+  font: 2.5rem sans-serif;
+  line-height: 3rem;
+  margin-block: 1rem 1rem;
+}
+
+.presentation--intro--title span {
+  color: orangered;
+}
+
+.presentation--left--hire {
+  padding-block: 0.5rem 0.6rem;
+  padding-inline: 1rem 1rem;
+  border-radius: 1.5rem;
+  border: 1px solid black;
+  width: fit-content;
+  margin-block: 1.5rem 1.5rem;
+}

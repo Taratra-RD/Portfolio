@@ -1,0 +1,53 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  margin-block: 0rem 5rem;
+  padding-inline: 5rem 5rem;
+}
+
+.experience--title {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-block: 0rem 2rem;
+}
+
+.experience--title span {
+  color: orangered;
+}
+
+.experience--field {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.experience--line {
+  display: flex;
+  flex-direction: column;
+  padding-block: 0rem 1rem;
+}
+
+.experience--line--text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.experience--line--title {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.experience--work,
+.experience--education {
+  width: 40%;
+}
+
+.experience--field--title {
+  padding-block: 1rem 1rem;
+  border-bottom: 1px solid black;
+  font-size: 2rem;
+  color: orangered;
+  margin-block: 0rem 1rem;
+}

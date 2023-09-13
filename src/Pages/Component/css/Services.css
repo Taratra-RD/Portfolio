@@ -1,0 +1,85 @@
+.services {
+  padding-inline: 5rem 5rem;
+  background-color: rgba(0, 0, 0, 0.76);
+  color: white;
+  padding-block: 4rem 4rem;
+  border-radius: 2.5rem;
+  margin-block: 0rem 4rem;
+}
+
+.services--up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid white;
+}
+
+.services--up--title {
+  font-size: 2rem;
+}
+
+.services--up--title span {
+  color: orangered;
+}
+
+.services--up--description {
+  width: 25rem;
+}
+
+.services--down {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.services--card {
+  max-width: 30%;
+  background-color: rgba(0, 0, 0, 0.788);
+  border-radius: 1.4rem;
+}
+
+.services--card:hover,
+.services--card:hover .card--title--text {
+  background-color: orangered;
+  color: white !important;
+}
+
+.card--title {
+  display: flex;
+  flex-direction: row;
+  padding-inline: 2rem 2rem;
+  justify-content: space-between;
+  padding-block: 1rem 0.7rem;
+  border-bottom: 1px solid white;
+  font-size: 1.7rem;
+}
+
+.card--title--text {
+  color: orangered;
+}
+
+.card--title--icon {
+  background-color: black;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card--body--description {
+  font-size: 13px;
+  padding-inline: 2rem 2rem;
+  margin-block: 1rem 1rem;
+}
+
+.card--body--image {
+  margin-inline: 0.6rem 0.6rem;
+  margin-block: 0.7rem 0.6rem;
+  border-radius: 1.4rem;
+  height: 15rem;
+  border: 1px solid white;
+}
